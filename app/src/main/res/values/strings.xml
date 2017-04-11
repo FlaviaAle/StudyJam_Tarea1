@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tarea 1</string>
+    <string name="titulo">www.trabajando.com</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="insesion">Iniciar Sesión</string>
+    <string name="insesionf">Iniciar Sesión con facebook</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="ofertas">Ver Ofertas</string>
+
+</resources>

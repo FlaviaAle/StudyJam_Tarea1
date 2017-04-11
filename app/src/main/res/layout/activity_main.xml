@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/imagenf"
+android:orientation="vertical">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/lupa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="www.trabajando.com"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:layout_weight="5"
+        android:hint="@string/usuario"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="60sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:hint="@string/contraseña"
+        android:layout_weight="5"
+        android:inputType="textPassword"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="20dp"
+            android:background="@color/boton"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="15sp"
+            android:hint="@string/insesion" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:hint="@string/registrarse" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="20dp"
+        android:background="@color/facebook"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="15sp"
+        android:hint="@string/insesionf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/boton"
+            android:textSize="20sp"
+            android:textColorHint="@color/colorAccent"
+            android:hint="@string/ofertas" />
+    </LinearLayout>
+
+</LinearLayout>
